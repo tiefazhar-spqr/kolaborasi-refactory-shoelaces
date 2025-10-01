@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    place-items: center;
+    height: 100dvh;
+}
+
+.button {
+    display: grid;
+    background-color: lime;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(9, 77, 0);
+    transform: translateX(-10px);
+    box-shadow: rgb(9, 77, 0);
+}
